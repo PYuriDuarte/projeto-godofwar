@@ -7,6 +7,7 @@ body{
     background-image: url('../img/bg-hero.jpg');
     background-position: center center;
     background-repeat: no-repeat;    
+    background-attachment: fixed;
     .container{
       display: flex;
       align-items: flex-end;
@@ -327,6 +328,12 @@ body{
         width: 100%;
         max-width: 61.2rem;
         margin: 2.8rem 0 2.4rem 0;
+        .subtitle{
+          margin-bottom: 3rem;
+        }
+        h2{
+          margin-bottom: 2rem;
+        }
       }
       .right{
         display: flex;
@@ -378,7 +385,7 @@ body{
         }
       }
     }
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 560px){
       padding: 4rem 0;
       .description{
         margin: 0;
@@ -394,6 +401,7 @@ body{
           flex-direction: column;
           align-items: center;
           .lacamento{
+            margin-bottom: 3rem;
             img{
               margin: 0 auto;
             }
@@ -405,7 +413,4 @@ body{
       }
     }
   }
-}
-.slide-characteres{
-  display: none;
 }
